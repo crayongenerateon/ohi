@@ -1,0 +1,73 @@
+body, html {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.55em;
+  height: 100%;
+}
+
+p {
+  padding-bottom: 1em;
+  font-weight: 200;
+}
+
+section {
+  width: 100%;
+}
+
+.main{
+  margin-top:5%;
+}
+
+.title {
+  background: url("../img/banner.JPG") center, aquamarine,;
+  color: #fff;
+  padding: 50px 0;
+  top: 0;
+  position: fixed;
+}
+.title h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 4em;
+  margin: 0;
+  text-shadow: 3px 2px 0 rgba(0, 0, 0, 0.4);
+  text-transform: lowercase;
+}
+.title h1 span {
+  font-family: "Roboto Slab", serif;
+  display: block;
+  text-transform: capitalize;
+  font-size: 0.35em;
+  color: #1f1f1f;
+  font-weight: 300;
+  text-shadow: 0 0 0;
+  padding-top: 0.5em;
+}
+
+.content {
+  background: #fff;
+  color: #1f1f1f;
+  min-height: 100vh;
+  padding-top: 50px;
+  position: relative;
+  z-index: 2;
+}
+.content p.publish-date {
+  text-align: right;
+  background: #ff6e7d;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+/*.content a {
+  color: #ff6e7d;
+  transition: all 0.3s ease-in-out;
+}*/
+.content a:hover {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 3px #ff6e7d solid;
+}
+
+.center{
+  padding: 3%;
+}

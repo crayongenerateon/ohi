@@ -1,0 +1,144 @@
+.dashboard-wrapper {
+  max-height: 100vh;
+  padding: 0;
+  transition: all .4s ease 0s;
+}
+
+#sidebar-wrapper {
+  width: 165px;
+  background: #ff6e7d;
+  position: fixed;
+  height: 100%;
+  z-index: 10000;
+  left: -110px;
+  transition: all .4s ease 0s;
+}
+
+#side-menu {
+  margin: 0;
+  padding: 0;
+}
+
+#side-menu li {
+  list-style-type: none;
+  display: block;
+  height: 45px;
+  border-bottom: 1px solid gray;
+  line-height: 45px;
+  padding: 0px 10px;
+}
+
+#side-menu li a {
+  text-decoration: none;
+  color: #FFF;
+  display: block;
+  width: 150px;
+}
+
+.sub-icon {
+  
+  width: 45px;
+  text-align: center;
+  color: #fff;
+  float:right;
+}
+
+#toggle-menu {
+  display: block;
+  color: #FFF;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 0px 20px 20px 10px;
+}
+
+.toggle-icon {
+  color: #FFF;
+  float: right;
+}
+
+.active {
+  margin-left: 110px;
+}
+
+.dashboard-wrapper.active #sidebar-wrapper {
+  margin-left: 110px;
+}
+
+.page-content-wrapper {
+  height: 100%;
+  margin-left: 55px;
+}
+.main-content{
+  padding-top:60px; 
+  height: 100%;
+}
+
+.dashboard-card {
+  
+  height:100%;
+  background-color: gray;
+}
+
+
+/* customise navbar */
+
+.navbar-custom {
+  margin-left: 55px;
+  background-color: #000;
+  color:#FFF
+}
+
+.navbar-custom .nav-item .nav-link{
+  color:#FFF;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #1abc9c;
+}
+
+/* sidebar animation */
+.sub-icon .fa .fa-cog:hover{
+  
+}
+i.fa-cog:hover{
+  transform:rotate(20deg);
+   
+}
+h2{
+  
+  float:left;
+  display:inline-block;
+  width:200x;
+}
+.date{
+  display:inline-block;
+  float:right;
+  padding:10px 20px;
+  border:1px black solid;
+}
+
+/*  FOOTER  */
+
+.footer {
+  margin-top: 21%;
+    background: #1abc9c;
+}
+
+.footer p{
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 5px;
+  color: #fff;
+}
+
+.footer a{
+  font-size: 18px;
+  font-weight:700; 
+}
+
+/* Content */
+.isi {
+  height: 100%;
+}
