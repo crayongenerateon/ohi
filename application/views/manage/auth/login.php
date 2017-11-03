@@ -20,7 +20,7 @@
     <div class="card bordered z-depth-2" style="margin:0% auto; max-width:400px;">
       <div class="card-header">
         <div class="brand-logo">
-          PENGELOLAAN WEBSITE PMOI
+          PENGELOLAAN WEBSITE OHCI
         </div>
       </div>
       <?php echo form_open(current_url(), array('role'=>'form', 'class'=>'form-signin')); ?>

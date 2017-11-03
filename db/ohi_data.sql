@@ -25,7 +25,7 @@ SET time_zone = "+00:00";
 --
 
 INSERT INTO `user` (`user_id`, `role_id`, `user_name`, `user_password`, `user_full_name`, `user_email`, `date_created`, `last_update`) VALUES
-(1, NULL, 'admin', '7c8e42450afb7a6421d399f7ff87b768f488baef', 'Administrator', 'admin@mail.com', '2016-10-02 08:06:45', NULL);
+(1, NULL, 'admin', SHA1('password'), 'Administrator', 'admin@mail.com', '2016-10-02 08:06:45', NULL);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
