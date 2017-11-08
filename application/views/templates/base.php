@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title> PMOI | The Internet Of Money</title>
+  <title> OHI | one healt indonesia</title>
   <link rel="icon" href="<?php echo site_url('');?>media/template/media/images/ico/blood.png" type="icon">
   <!-- Bootstrap Core CSS -->
   <link href="<?php echo base_url('');?>media/template/media/css/bootstrap.min.css" rel="stylesheet" type="text/css">
