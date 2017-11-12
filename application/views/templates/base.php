@@ -117,111 +117,135 @@
           </h1>
           <p class="animated fadeInUp delay-1">Lates Information</p>
         </div>
-        <a class="btn btn-primary pull-right" href="#" style="margin-top: -50px;">View All News <i class="ion ion-eye"></i></a>
-        <div class="caption">
+        <!-- <a class="btn btn-primary pull-right" href="#" style="margin-top: -50px;">View All News <i class="ion ion-eye"></i></a> -->
 
-          <div class="index-content">
-            <div class="container">
-              <div class="row">
-               <?php $i = 1; ?>
-               <?php foreach ($news as $key): ?>
-                 <?php $item_class = ($i == 1) ? 'item active' : 'item'; ?>
-                 <div class="<?php echo $item_class; ?>">
-                  <div class="col-md-4 col-lg-4 col-sm-12">
-                   <a href="<?php echo news_url($key) ?>" target="_blank">
-                    <figure class="snip1543 hover">
-                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample108.jpg" alt="sample108" />
-                      <figcaption>
-                        <h3><?php echo $key['news_title'] ?></h3>
-                        <small><?php echo pretty_date($key ['news_post_date'], 'l, d-m-Y', FALSE) ?></small>
-                        <p><?php echo word_limiter($key['news_desc'], '10') ?></p>
-                      </figcaption>
-                    </figure>
-                  </a>
+
+        <div class="index-content">
+          <div class="container">
+            <div class="row">
+             <?php $i = 1; ?>
+             <?php foreach ($news as $key): ?>
+               <?php $item_class = ($i == 1) ? 'item active' : 'item'; ?>
+               <div class="<?php echo $item_class; ?>">
+                <div class="col-md-4 col-lg-4 col-sm-12">
+
+
+                  <a href="<?php echo news_url($key) ?>" target="_blank">
+                    <div class="cards">
+                      <article class="card card_main">
+                        <header class="card__header">
+                          <img class="card__preview" src="<?php echo base_url();?>/media/template/media/images/support/1.JPG" alt="Preview img">
+                          <button class="card__main-action" type="button">In bookmarks</button>
+                        </header>
+                        <div class="card__body">
+                          <div class="card__content">
+                            <h3 class="card__title">
+                              <a href="#0" class="card__showmore"><?php echo $key['news_title'] ?></a></h3>
+                              <div class="card__description">
+                                <p><?php echo word_limiter($key['news_desc'], '15') ?></p>
+                              </div>
+                            </div>
+                            <footer class="card__footer">
+                              <span class="card__author"><?php echo pretty_date($key ['news_post_date'], 'l, d-m-Y', FALSE) ?></span>
+                              <div class="card__meta">
+                                <div class="card__meta-item">
+                                  <i class="ion ion-eye"></i>
+                                  <a href="href="<?php echo news_url($key) ?>" target="_blank"">
+                                    <span class="card__label">Read More</span>
+                                  </a>
+                                </div>
+                              </div>
+                            </footer>
+                          </div>
+                        </article>
+                      </div>
+                    </a>
+
+
+                  </div>
                 </div>
-              </div>
 
-              <?php $i++; ?>
-            <?php endforeach ?>
+                <?php $i++; ?>
+              <?php endforeach ?>
+            </div>
+
           </div>
-
         </div>
+
+      </div>
+    </div>
+
+
+
+
+    <div class="bgimg-3" style="margin-top: -80px">
+      <div class="caption">
+        <div class="col-lg-12">
+          <span class="border" style="background-color:transparent;font-size:30px;color: #fff !important;">
+           <center>
+            <h1 style="margin-top: 50px;">
+              <div class="animated fadeInLeft">Visi &</div> <div class="animated fadeInRight">Misi</div>
+            </h1>
+          </center>
+          Mengembangkan pelayanan massage Olahraga yang bermutu tinggi dan kompetitif. Bersama Pemerintah dan organisasi profesi berperan secara substansif dalam penyediaan pelayanan massage olahraga yang handal dan berkualitas tinggi.
+        </span>
       </div>
     </div>
   </div>
-</div>
 
 
-
-
-  <div class="bgimg-3">
-    <div class="caption">
-      <div class="col-lg-12">
-        <span class="border" style="background-color:transparent;font-size:30px;color: rgb(251, 186, 22) !important;">
-         <center>
-          <h1 style="margin-top: 50px;">
-            <div class="animated fadeInLeft">Visi &</div> <div class="animated fadeInRight">Misi</div>
-          </h1>
-        </center>
-        Mengembangkan pelayanan massage Olahraga yang bermutu tinggi dan kompetitif. Bersama Pemerintah dan organisasi profesi berperan secara substansif dalam penyediaan pelayanan massage olahraga yang handal dan berkualitas tinggi.
-      </span>
+  <div class="container" style="margin-top: 40px; margin-bottom: 40px;">
+    <div class="col-xs-12 col-md-6">
+      <div class="list-group list-cust">
+        <a href="#" class="list-group-item active">
+          <h2>Latar Belakang</h2>
+        </a>
+        <a href="#" class="list-group-item text-primary">Bagaimana meningkatkan pola pikir yang benar terhadap olahraga pada masyarakat sehingga membudayakan olahraga.</a>
+        <a href="#" class="list-group-item">Bagaimana meningkatkan pola kualitas dan kuantitas penangan <strong>Sport Massage</strong> yang benar sehingga memungkinkan kembali ke aktivitas semula.</a>
+        <a href="#" class="list-group-item">Tenaga Masseur olahraga yang masih kurang.</a>
+        <a href="#" class="list-group-item">Pengobatan alternatif sudah membudaya karena lebih murah dan mudah diperoleh.</a>
+        <a href="#" class="list-group-item">Sport Massage belum membudaya karena mahal dan sulit diperoleh.</a>
+      </div>
     </div>
-  </div>
-</div>
 
-
-<div class="container" style="margin-top: 40px; margin-bottom: 40px;">
-  <div class="col-xs-12 col-md-6">
-    <div class="list-group list-cust">
+    <div class="col-xs-12 col-md-6">
+     <div class="list-group list-cust">
       <a href="#" class="list-group-item active">
-        <h2>Latar Belakang</h2>
+        <h2>Tujuan</h2>
       </a>
-      <a href="#" class="list-group-item text-primary">Bagaimana meningkatkan pola pikir yang benar terhadap olahraga pada masyarakat sehingga membudayakan olahraga.</a>
-      <a href="#" class="list-group-item">Bagaimana meningkatkan pola kualitas dan kuantitas penangan <strong>Sport Massage</strong> yang benar sehingga memungkinkan kembali ke aktivitas semula.</a>
-      <a href="#" class="list-group-item">Tenaga Masseur olahraga yang masih kurang.</a>
-      <a href="#" class="list-group-item">Pengobatan alternatif sudah membudaya karena lebih murah dan mudah diperoleh.</a>
-      <a href="#" class="list-group-item">Sport Massage belum membudaya karena mahal dan sulit diperoleh.</a>
+      <a href="#" class="list-group-item text-primary">Menjadi wadah peningkatan Sumber Daya Manusia tenaga ke-olahragaan di bidang masas olahraga.</a>
+      <a href="#" class="list-group-item">Menciptakan standarisasi finansial & Kompetensi Masseur olahraga yang unggul dan profesional.</a>
+      <a href="#" class="list-group-item">Memberikan dukungan kepada program pembinaan atlet tingkat daerah hingga Nasional dalam mencapai prestasi</a>
+      <a href="#" class="list-group-item">Berkontribusi dalam melahirkan tenaga keolahragaan masas olahraga yang terbaik</a>
+      <a href="#" class="list-group-item">Sebagai media silaturahmi dan sharing para masseur seluruh indonesia</a>
     </div>
   </div>
-
-  <div class="col-xs-12 col-md-6">
-   <div class="list-group list-cust">
-    <a href="#" class="list-group-item active">
-      <h2>Tujuan</h2>
-    </a>
-    <a href="#" class="list-group-item text-primary">Menjadi wadah peningkatan Sumber Daya Manusia tenaga ke-olahragaan di bidang masas olahraga.</a>
-    <a href="#" class="list-group-item">Menciptakan standarisasi finansial & Kompetensi Masseur olahraga yang unggul dan profesional.</a>
-    <a href="#" class="list-group-item">Memberikan dukungan kepada program pembinaan atlet tingkat daerah hingga Nasional dalam mencapai prestasi</a>
-    <a href="#" class="list-group-item">Berkontribusi dalam melahirkan tenaga keolahragaan masas olahraga yang terbaik</a>
-    <a href="#" class="list-group-item">Sebagai media silaturahmi dan sharing para masseur seluruh indonesia</a>
-  </div>
-</div>
 </div>
 
 <footer>
-<div class="container">
-  <div class="row text-center">   
-    <div class="col-lg-6 col-lg-offset-3">
-      <ul class="menu">
+  <div class="container">
+    <div class="row text-center">   
+      <div class="col-lg-6 col-lg-offset-3">
+        <ul class="menu">
+
+         <li>
+          <a href="#">Home</a>
+        </li>
+
+        <li>
+         <a href="#">About</a>
+       </li>
 
        <li>
-        <a href="#">Home</a>
+        <a href="#">News</a>
       </li>
 
       <li>
-       <a href="#">About</a>
+       <a href="#">081288007787</a>
      </li>
 
-     <li>
-      <a href="#">News</a>
-    </li>
-
-    <li>
-     <a href="#">081288007787</a>
-   </li>
-
-</ul>
-</div>
+   </ul>
+ </div>
 </div>
 </div>
 
