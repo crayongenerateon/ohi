@@ -150,7 +150,7 @@
                               <div class="card__meta">
                                 <div class="card__meta-item">
                                   <i class="ion ion-eye"></i>
-                                  <a href="href="<?php echo news_url($key) ?>" target="_blank"">
+                                  <a href="<?php echo news_url($key) ?>" target="_blank"">
                                     <span class="card__label">Read More</span>
                                   </a>
                                 </div>
