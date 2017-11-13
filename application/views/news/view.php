@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
+  <!-- You can use Open Graph tags to customize link previews.
+    Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+  <meta property="og:url"           content="http://localhost/<?php echo news_url($news) ?>" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="<?php echo $news['news_title'] ?>" />
+  <meta property="og:description"   content="<?php echo word_limiter($news['news_desc'], '10') ?>" />
 
   <title> OHI | one healt indonesia</title>
   <link rel="icon" href="<?php echo site_url('');?>media/template/media/images/ico/blood.png" type="icon">
@@ -44,7 +50,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand hidden-xs" href="#"><strong><img src="<?php echo base_url();?>media/template/media/images/ico/logo.png" class="img-resposive" alt="PMOI" width="10%" style="margin-top: -17px;"></a>
+      <!-- <a class="navbar-brand hidden-xs" href="#"><strong><img src="<?php echo base_url();?>media/template/media/images/ico/logo.png" class="img-resposive" alt="PMOI" width="10%" style="margin-top: -17px;"></a> -->
         <a class="navbar-brand hidden-sm hidden-md hidden-lg" href="#"><strong><img src="<?php echo base_url();?>media/template/media/images/ico/logo.png" class="img-resposive" alt="PMOI" width="35%" style="margin-top: -65px;"></a>
         </div>
         <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-2">
@@ -106,8 +112,9 @@
       </p>
     </center>
     <div class="button-container">
-      <div class='button -blue center'>
-        <a href="http://www.facebook.com/sharer/sharer.php?u=<?php echo news_url($news) ?>&title=<?php echo $news['news_title'] ?>&summary=<?php echo word_limiter($news['news_desc'], '10') ?>" target="_blank" style="color: #fff;">
+
+      <div class='button -blue center' data-href="https://localhost/<?php echo news_url($news) ?>" >
+        <a  href="https://www.facebook.com/sharer.php?u=<?php echo news_url($news) ?>" target="_blank" style="color: #fff;">
           Facebook
         </a>
       </div>
@@ -197,6 +204,16 @@
     });
   });
 </script>
+
+<!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
 </body>
 </html>

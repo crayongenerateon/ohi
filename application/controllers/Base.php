@@ -12,7 +12,7 @@ class Base extends CI_Controller {
 
 	public function index($id = NULL)
 	{
-		$data['news'] = $this->News_model->get();
+		$data['news'] = $this->News_model->get(array('limit' => 6));
 		$this->load->view('templates/base', $data);
 	}
 

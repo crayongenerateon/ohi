@@ -50,7 +50,7 @@
         <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-2">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="<?php echo site_url('');?>">Home</a></li>
-            <li><a href="<?php echo site_url('');?>">News</a></li>
+            <li><a href="<?php echo site_url('news/index');?>">News</a></li>
             <li><a href="<?php echo site_url('about');?>">About Us |</a></li>
             <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook" style=" color: #4267b2;"></i></a></li>
             <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter" style=" color: #5fb0e8;"></i></a></li>
@@ -134,7 +134,7 @@
                     <div class="cards">
                       <article class="card card_main">
                         <header class="card__header">
-                          <img class="card__preview" src="<?php echo base_url();?>/media/template/media/images/support/1.JPG" alt="Preview img">
+                          <!-- <img class="card__preview" src="<?php echo base_url();?>/media/template/media/images/support/1.JPG" alt="Preview img"> -->
                           <button class="card__main-action" type="button">In bookmarks</button>
                         </header>
                         <div class="card__body">

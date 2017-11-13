@@ -23,9 +23,9 @@ class News extends CI_Controller {
         $data['news_latest'] = $this->News_model->get(array('limit' => 5));
 		$data['news'] = $this->News_model->get(array('limit' => 10, 'offset' => $offset));
 		$data['title'] = 'Daftar Berita';
-		$data['page'] = 'templates/news/detil';
+		$data['page'] = 'templates/news/list';
 		$params['limit'] = 10;
-		$this->load->view('news/detil', $data);
+		$this->load->view('news/list', $data);
 	}
 
 	public function view($id = null)
