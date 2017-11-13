@@ -50,7 +50,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <!-- <a class="navbar-brand hidden-xs" href="#"><strong><img src="<?php echo base_url();?>media/template/media/images/ico/logo.png" class="img-resposive" alt="PMOI" width="10%" style="margin-top: -17px;"></a> -->
+      <a class="navbar-brand hidden-xs" href="#"><strong><img src="<?php echo base_url();?>media/template/media/images/ico/logo.png" class="img-resposive" alt="PMOI" width="10%" style="margin-top: -17px;"></a>
         <a class="navbar-brand hidden-sm hidden-md hidden-lg" href="#"><strong><img src="<?php echo base_url();?>media/template/media/images/ico/logo.png" class="img-resposive" alt="PMOI" width="35%" style="margin-top: -65px;"></a>
         </div>
         <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-2">
@@ -75,7 +75,7 @@
           <section class="blog-post">
             <div class="panel panel-default">
               <center>
-                <img src="media/images/support/3.JPG" class="img-responsive" width="100%">
+                <!-- <img src="media/images/support/3.JPG" class="img-responsive" width="100%"> -->
               </center>
               <div class="panel-body">
                 <div class="blog-post-meta">
@@ -87,9 +87,9 @@
                     <h2 class="blog-post-title">Materialize Tutorial for Beginners</h2>
                   </a> -->
                   <p><?php echo $news['news_desc'] ?>  </p>
-                  <a class="btn btn-more" href="#">Read more</a>
-                  <a class="blog-post-share pull-right" href="#">
-                    <i class="ion ion-thumbsup"></i>
+                  <!-- <a class="btn btn-more" href="#">Read more</a>
+                  <a class="blog-post-share pull-right" href="#"> -->
+                    <!-- <i class="ion ion-thumbsup"></i> -->
                   </a>
                 </div>
               </div>
@@ -107,9 +107,6 @@
       <h2>
         Share Social Media
       </h2>
-      <p>
-        Random selection of button styles. May change over time as I get alot of stupid ideas. Feel free to follow me on  <a href="https://twitter.com/simonbusborg" target="_blank" class="twitter">twitter</a>
-      </p>
     </center>
     <div class="button-container">
 

@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>PMOI <?php echo isset($title) ? '| '.$title : null ?></title>
+	<title>OHI <?php echo isset($title) ? '| '.$title : null ?></title>
 	<link rel="shortcut icon" href="<?php echo base_url('media/img/logo.png') ?>">
 	<link rel="stylesheet" href="<?php echo base_url('media/css/bootstrap.min.css') ?>" />
 	<link rel="stylesheet" href="<?php echo base_url('media/css/materialdesignicons.min.css') ?>" />
