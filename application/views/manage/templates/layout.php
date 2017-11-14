@@ -5,7 +5,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>OHI <?php echo isset($title) ? '| '.$title : null ?></title>
-	<link rel="shortcut icon" href="<?php echo base_url('media/img/logo.png') ?>">
+	<link rel="shortcut icon" href="<?php echo base_url('media/template/media/images/ico/logo.png') ?>">
 	<link rel="stylesheet" href="<?php echo base_url('media/css/bootstrap.min.css') ?>" />
 	<link rel="stylesheet" href="<?php echo base_url('media/css/materialdesignicons.min.css') ?>" />
 	<link rel="stylesheet" href="<?php echo base_url('media/css/materialdesignicons.min.css.map') ?>" />
@@ -29,7 +29,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand hidden-xs" href="<?php echo site_url('manage');?>"><font color="#fff"><img src="<?php echo base_url('media/img/logo.png') ?>" width="70 px"  style="margin-top:-10px;"></font> </a>
+				<a class="navbar-brand hidden-xs" href="<?php echo site_url('manage');?>"><img src="media/template/media/images/ico/logo.png" class="img-resposive" alt="PMOI" width="8%" style="margin-top: -6px;"></a></a>
 				<button type="button" class="navbar-toggle collapsed hidden-xs" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
@@ -47,8 +47,8 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
 					<div class="btn-group" style="margin:18px;">
-						<button type="button" class="btn btn-warning dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profil
-							<img class="img-circle" src="<?php echo base_url('media/img/people.png') ?>" width="21px" alt=""> <span><i class="mdi mdi-chevron-down"></i></span>
+						<button type="button" class="btn btn-warning dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-top: -50px;">Profil
+							<img class="img-circle" src="<?php echo base_url('media/img/people.png') ?>" width="21px" alt=""> <span><i class="ion ion-arrow-down-b"></i></span>
 						</button>
 						<ul class="dropdown-menu">
 							<li><a href="<?php echo site_url('manage/profile') ?>">Profil</a></li>
