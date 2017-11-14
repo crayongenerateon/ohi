@@ -6,12 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
-  <!-- You can use Open Graph tags to customize link previews.
-    Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
-    <meta property="og:url"           content="http://localhost/<?php echo news_url($news) ?>" />
-    <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="<?php echo $news['news_title'] ?>" />
-    <meta property="og:description"   content="<?php echo word_limiter($news['news_desc'], '10') ?>" />
 
     <title> OHI | one healt indonesia</title>
     <link rel="icon" href="<?php echo site_url('');?>media/template/media/images/ico/blood.png" type="icon">
@@ -93,13 +87,13 @@
                             <div class="card__body">
                               <div class="card__content">
                                 <h3 class="card__title">
-                                  <a href="#0" class="card__showmore">lorem ipsum lorem ipsum lorem ipsum </a></h3>
+                                  <a href="#0" class="card__showmore"><?php echo $key['news_title'] ?></a></h3>
                                   <div class="card__description">
-                                    <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
+                                    <p><?php echo word_limiter($key['news_desc'], '15') ?></p>
                                   </div>
                                 </div>
                                 <footer class="card__footer">
-                                  <span class="card__author">Tanggal 20/09/2017</span>
+                                  <span class="card__author"><?php echo pretty_date($key ['news_post_date'], 'l, d-m-Y', FALSE) ?></span>
                                   <div class="card__meta">
                                     <div class="card__meta-item">
                                       <i class="ion ion-eye"></i>

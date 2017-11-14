@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title> OHI | one healt indonesia</title>
+  <title> OHCI | one healt care indonesia</title>
   <link rel="icon" href="<?php echo site_url('');?>media/template/media/images/ico/blood.png" type="icon">
   <!-- Bootstrap Core CSS -->
   <link href="<?php echo base_url('');?>media/template/media/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -79,7 +79,7 @@
           <div class="slide-1"></div>
           <div class="hero">
             <hgroup>
-              <h1>one healt indonesia</h1>        
+              <h1>one healt care indonesia</h1>        
               <h3>kesehatan umum, kedokteran gigi Klinik</h3>
             </hgroup>
             <button class="snip1434">About Us<i class="ion-stats-bars"></i></button>
@@ -89,7 +89,7 @@
           <div class="slide-2"></div>
           <div class="hero">        
             <hgroup>
-              <h1>one healt indonesia</h1>        
+              <h1>one healt care indonesia</h1>        
               <h3>It Pays to Live Healthy</h3>
             </hgroup>       
             <button class="snip1434">About Us<i class="ion-stats-bars"></i></button>
@@ -99,7 +99,7 @@
           <div class="slide-3"></div>
           <div class="hero">        
             <hgroup>
-              <h1>one healt indonesia</h1>        
+              <h1>one healt care indonesia</h1>        
               <h3>Get start your next awesome project</h3>
             </hgroup>
             <button class="snip1434">About Us<i class="ion-stats-bars"></i></button>
@@ -116,7 +116,7 @@
             <div class="animated fadeInLeft">Post</div><div class="animated fadeInRight">News</div>
           </h1>
           <p class="animated fadeInUp delay-1">Lates Information</p>
-          <a href="<?php echo site_url('news/list');?>" class="animated fadeInUp delay-1 pull-right" style="margin-top: -30px;">All News</a>`
+          <a href="<?php echo site_url('news/index');?>" class="animated fadeInUp delay-1 pull-right" style="margin-top: -30px;">All News</a>`
         </div>
         <!-- <a class="btn btn-primary pull-right" href="#" style="margin-top: -50px;">View All News <i class="ion ion-eye"></i></a> -->
 
@@ -188,7 +188,7 @@
               <div class="animated fadeInLeft">Visi &</div> <div class="animated fadeInRight">Misi</div>
             </h1>
           </center>
-          Mengembangkan pelayanan massage Olahraga yang bermutu tinggi dan kompetitif. Bersama Pemerintah dan organisasi profesi berperan secara substansif dalam penyediaan pelayanan massage olahraga yang handal dan berkualitas tinggi.
+          Menyediakan layanan kesehatan dan kebugaran secara profesional dalama rangka meningkatkan derajat kesehatan dan produktifitas kerja pada masyarakat indonesia.
         </span>
       </div>
     </div>
@@ -201,11 +201,10 @@
         <a href="#" class="list-group-item active">
           <h2>Latar Belakang</h2>
         </a>
-        <a href="#" class="list-group-item text-primary">Bagaimana meningkatkan pola pikir yang benar terhadap olahraga pada masyarakat sehingga membudayakan olahraga.</a>
-        <a href="#" class="list-group-item">Bagaimana meningkatkan pola kualitas dan kuantitas penangan <strong>Sport Massage</strong> yang benar sehingga memungkinkan kembali ke aktivitas semula.</a>
-        <a href="#" class="list-group-item">Tenaga Masseur olahraga yang masih kurang.</a>
-        <a href="#" class="list-group-item">Pengobatan alternatif sudah membudaya karena lebih murah dan mudah diperoleh.</a>
-        <a href="#" class="list-group-item">Sport Massage belum membudaya karena mahal dan sulit diperoleh.</a>
+        <a href="#" class="list-group-item text-primary">Semakin meningkatnya kasus gangguan sistem muskuloskeletal (otot, tulang dan persendian) pada masyarakat indonesia.</a>
+        <a href="#" class="list-group-item">Rendahnya tingkat kebugaran masyarakat indonesia.</a>
+        <a href="#" class="list-group-item">Tingginya angka kesakitan yang diikuti dengan rendahnya tingkat kebugaran dapat menyebabkan menurunnya produktifitas kerja masyarakat Indonesia.</a>
+        <a href="#" class="list-group-item">Sulitnya masyarakat  Indonesia mendapat layanan kesehatan dan kebugaran  yang efektif dan efisien.</a>
       </div>
     </div>
 
@@ -214,11 +213,10 @@
       <a href="#" class="list-group-item active">
         <h2>Tujuan</h2>
       </a>
-      <a href="#" class="list-group-item text-primary">Menjadi wadah peningkatan Sumber Daya Manusia tenaga ke-olahragaan di bidang masas olahraga.</a>
-      <a href="#" class="list-group-item">Menciptakan standarisasi finansial & Kompetensi Masseur olahraga yang unggul dan profesional.</a>
+      <a href="#" class="list-group-item text-primary">Menjadi wadah bagi tenaga kesehatan untuk mengabdikan ilmunya kepada masyarakat di Indonesia </a>
+      <a href="#" class="list-group-item"> Memberikan solusi kepada masyarakat di Indonesia yang mengalami gangguan kesehatan dalam mendapatkan layanan kesehatan dan kebugaran yang efektif dan efisien.</a>
       <a href="#" class="list-group-item">Memberikan dukungan kepada program pembinaan atlet tingkat daerah hingga Nasional dalam mencapai prestasi</a>
-      <a href="#" class="list-group-item">Berkontribusi dalam melahirkan tenaga keolahragaan masas olahraga yang terbaik</a>
-      <a href="#" class="list-group-item">Sebagai media silaturahmi dan sharing para masseur seluruh indonesia</a>
+      <a href="#" class="list-group-item">Membantu pelakasanaan program pemerintah dalam meningkatkan derajat kesehatan dan kebugaran pada masyarakat di Indonesia</a>
     </div>
   </div>
 </div>
