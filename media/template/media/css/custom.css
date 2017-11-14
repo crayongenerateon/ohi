@@ -1094,8 +1094,8 @@ h1 div:first-child {
   flex-wrap: wrap;
   justify-content: space-between;
   font-family: "Roboto", sans-serif;
-  margin-top: -60px;
-  margin-bottom: 90px;
+  margin-top: -90px;
+  margin-bottom: 110px;
 }
 .card_main{
   width: 100%;
