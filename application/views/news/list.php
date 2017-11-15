@@ -122,7 +122,6 @@
       </div>
     </div>
 
-
     <footer>
       <div class="container">
         <div class="row text-center">   
@@ -130,37 +129,33 @@
             <ul class="menu">
 
              <li>
-              <a href="#">Home</a>
+              <a href="#"><i class="ion ion-android-call"></i> 0816-1140-7095</a>
             </li>
 
             <li>
-             <a href="#">About</a>
+             <a href="#"><i class="ion ion-android-call"></i> 0812-8667-6543</a>
            </li>
 
            <li>
-            <a href="#">News</a>
-          </li>
+             <a href="#"><i class="ion ion-android-call"></i> 081288007787</a>
+           </li>
 
-          <li>
-           <a href="#">081288007787</a>
-         </li>
-
-       </ul>
+         </ul>
+       </div>
      </div>
    </div>
- </div>
 
-</footer>
+ </footer>
 
 
-<div class="copyright">
- <div class="container">
+ <div class="copyright">
+   <div class="container">
 
-   <div class="row text-center">
-    <p>Copyright © 2017 All rights reserved</p>
+     <div class="row text-center">
+      <p>Copyright © 2017 All rights reserved</p>
+    </div>
+
   </div>
-
-</div>
 </div>
 
 <!-- Footer 3 End -->

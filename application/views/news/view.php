@@ -141,72 +141,68 @@
               <ul class="menu">
 
                <li>
-                <a href="#">Home</a>
+                <a href="#"><i class="ion ion-android-call"></i> 0816-1140-7095</a>
               </li>
 
               <li>
-               <a href="#">About</a>
+               <a href="#"><i class="ion ion-android-call"></i> 0812-8667-6543</a>
              </li>
 
              <li>
-              <a href="#">News</a>
-            </li>
+               <a href="#"><i class="ion ion-android-call"></i> 081288007787</a>
+             </li>
 
-            <li>
-             <a href="#">081288007787</a>
-           </li>
-
-         </ul>
+           </ul>
+         </div>
        </div>
      </div>
-   </div>
 
- </footer>
+   </footer>
 
 
- <div class="copyright">
-   <div class="container">
+   <div class="copyright">
+     <div class="container">
 
-     <div class="row text-center">
-      <p>Copyright © 2017 All rights reserved</p>
+       <div class="row text-center">
+        <p>Copyright © 2017 All rights reserved</p>
+      </div>
+
     </div>
-
   </div>
-</div>
 
-<!-- Footer 3 End -->
+  <!-- Footer 3 End -->
 
 
-<script>
-  jQuery(document).ready(function($) {
-    $('.popup').click(function(event) {
-      var width  = 575,
-      height = 400,
-      left   = ($(window).width()  - width)  / 2,
-      top    = ($(window).height() - height) / 2,
-      url    = this.href,
-      opts   = 'status=1' +
-      ',width='  + width  +
-      ',height=' + height +
-      ',top='    + top    +
-      ',left='   + left;
+  <script>
+    jQuery(document).ready(function($) {
+      $('.popup').click(function(event) {
+        var width  = 575,
+        height = 400,
+        left   = ($(window).width()  - width)  / 2,
+        top    = ($(window).height() - height) / 2,
+        url    = this.href,
+        opts   = 'status=1' +
+        ',width='  + width  +
+        ',height=' + height +
+        ',top='    + top    +
+        ',left='   + left;
 
-      window.open(url, 'twitter', opts);
+        window.open(url, 'twitter', opts);
 
-      return false;
+        return false;
+      });
     });
-  });
-</script>
+  </script>
 
-<!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
 </body>
 </html>
