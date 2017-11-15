@@ -2,7 +2,7 @@
 <ul class="nav nav-pills nav-stacked hidden-xs" style="border-right:1px solid black">
 	<li class="nav-header"></li>
 	<li><a href="<?php echo site_url('manage') ?>"><i class="ion ion-ionic"></i> Dashboard</a></li>
-	<li><a href="<?php echo site_url('manage/news') ?>"><i class="ion ion-person"></i> Daftar Berita</a></li>
+	<li><a href="<?php echo site_url('manage/news') ?>"><i class="ion ion-card"></i> Daftar Berita</a></li>
 	<li><a href="<?php echo site_url('manage/news/add') ?>"><i class="ion ion-plus-circled"></i> Tambah Berita</a></li>
 	<li><a href="<?php echo site_url('manage/log') ?>"><i class="ion ion-loop"></i> Log Aktivitas</a></li>
 </ul>
