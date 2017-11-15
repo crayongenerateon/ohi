@@ -123,7 +123,7 @@
           <div class="hero">        
             <hgroup>
               <h1>one healtcare indonesia</h1>        
-              <h3>Get start your next awesome project</h3>
+               <h3>It Pays to Live Healthy</h3>
             </hgroup>
           </div>
         </div>
