@@ -8,7 +8,7 @@
   <meta name="author" content="">
 
   <title> OHI | one healt indonesia</title>
-  <link rel="icon" href="<?php echo site_url('');?>media/template/media/images/ico/blood.png" type="icon">
+  <link rel="shortcut icon" href="<?php echo base_url('media/template/media/images/ico/logo2.png') ?>">
   <!-- Bootstrap Core CSS -->
   <link href="<?php echo base_url('');?>media/template/media/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="<?php echo base_url('');?>media/template/media/css/ionicons.min.css" rel="stylesheet" type="text/css">
@@ -51,11 +51,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="<?php echo site_url('');?>">Home</a></li>
             <li><a href="<?php echo site_url('');?>">News</a></li>
-            <li><a href="<?php echo site_url('about');?>">About Us |</a></li>
-            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook" style=" color: #4267b2;"></i></a></li>
-            <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter" style=" color: #5fb0e8;"></i></a></li>
-            <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus" style=" color: #db4437;"></i></a></li>       
-            <li><a href="" title="Contact Us"><small>081288007787</small></a></li>  
+            <li><a href="<?php echo site_url('about');?>">About Us</a></li>    
           </ul>
         </div>
         <!--/.navbar-collapse-->

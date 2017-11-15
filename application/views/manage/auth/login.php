@@ -5,16 +5,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>PMOI | Login</title>
-  <link rel="shortcut icon" href="<?php echo base_url('media/img/logo.png') ?>">
+  <link rel="shortcut icon" href="<?php echo base_url('media/template/media/images/ico/logo2.png') ?>">
   <link href="<?php echo base_url('media/css/bootstrap.min.css');?>" rel="stylesheet">
   <link href="<?php echo base_url('media/css/login.css');?>" rel="stylesheet">
 
 
 </head>
 <body>
-
-
-
 
   <div class="center">
     <div class="card bordered z-depth-2" style="margin:0% auto; max-width:400px;">

@@ -8,7 +8,7 @@
   <meta name="author" content="">
 
   <title> OHI | one healtcare indonesia</title>
-  <link rel="shortcut icon" href="<?php echo base_url('media/img/logo.png') ?>">
+  <link rel="shortcut icon" href="<?php echo base_url('media/template/media/images/ico/logo2.png') ?>">
   <!-- Bootstrap Core CSS -->
   <link href="<?php echo base_url('');?>media/template/media/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="<?php echo base_url('');?>media/template/media/css/ionicons.min.css" rel="stylesheet" type="text/css">
@@ -250,19 +250,15 @@
         <ul class="menu">
 
          <li>
-          <a href="#">Home</a>
+          <a href="#"><i class="ion ion-android-call"></i> 0816-1140-7095</a>
         </li>
 
         <li>
-         <a href="#">About</a>
+         <a href="#"><i class="ion ion-android-call"></i> 0812-8667-6543</a>
        </li>
 
-       <li>
-        <a href="#">News</a>
-      </li>
-
       <li>
-       <a href="#">081288007787</a>
+       <a href="#"><i class="ion ion-android-call"></i> 081288007787</a>
      </li>
 
    </ul>
