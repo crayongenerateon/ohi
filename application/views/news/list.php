@@ -50,8 +50,6 @@
         <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-2">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="<?php echo site_url('');?>">Home</a></li>
-            <li><a href="<?php echo site_url('');?>">News</a></li>
-            <li><a href="<?php echo site_url('about');?>">About Us</a></li>    
           </ul>
         </div>
         <!--/.navbar-collapse-->
