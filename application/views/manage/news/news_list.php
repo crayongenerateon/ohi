@@ -1,6 +1,7 @@
-<h3 class="page-header">
-    Daftar Berita
-</h3>
+<a href="#">
+    <h3><span class="ion ion-ionic"></span> Daftar Berita</h3>
+</a>
+<hr>
 
 <div class="table-responsive">
     <table class="table table-striped">

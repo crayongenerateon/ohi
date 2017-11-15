@@ -5,12 +5,12 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>OHI <?php echo isset($title) ? '| '.$title : null ?></title>
-	<link rel="shortcut icon" href="<?php echo base_url('media/template/media/images/ico/logo.png') ?>">
+	<link rel="shortcut icon" href="<?php echo base_url('media/img/logo.png') ?>">
 	<link rel="stylesheet" href="<?php echo base_url('media/css/bootstrap.min.css') ?>" />
 	<link rel="stylesheet" href="<?php echo base_url('media/css/materialdesignicons.min.css') ?>" />
 	<link rel="stylesheet" href="<?php echo base_url('media/css/materialdesignicons.min.css.map') ?>" />
 	<link rel="stylesheet" href="<?php echo base_url('media/css/ionicons.min.css') ?>" />
-	<link rel="stylesheet" href="<?php echo base_url('media/css/sidebar.css') ?>"/>
+	<link rel="stylesheet" href="<?php echo base_url('media/css/custom.css') ?>"/>
 
 	<script src="<?php echo base_url('media/js/jquery-1.11.1.js') ?>"></script>
 	<script src="<?php echo base_url('media/js/bootstrap.min.js') ?>"></script>
@@ -21,90 +21,65 @@
 </head>
 <body>
 
-	<div class="navbar navbar-static navbar-default navbar-fixed-top">
+
+	<div id="top-nav" class="navbar navbar-inverse navbar-static-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle toggle-left hidden-md hidden-lg" data-toggle="sidebar" data-target=".sidebar-left">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand hidden-xs" href="<?php echo site_url('manage');?>"><img src="media/template/media/images/ico/logo.png" class="img-resposive" alt="PMOI" width="8%" style="margin-top: -6px;"></a></a>
-				<button type="button" class="navbar-toggle collapsed hidden-xs" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<button type="button" class="navbar-toggle toggle-right hidden-lg hidden-md hidden-sm" data-toggle="sidebar" data-target=".sidebar-right">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
+				<a class="navbar-brand" href="#"> ONE HEALT INDONESIA</a>
 			</div>
-			
-
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<div class="btn-group" style="margin:18px;">
-						<button type="button" class="btn btn-warning dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-top: -50px;">Profil
+					<li class="dropdown">
+						<button type="button" class="dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-top: 10px; margin-right: 20px;">Profil
 							<img class="img-circle" src="<?php echo base_url('media/img/people.png') ?>" width="21px" alt=""> <span><i class="ion ion-arrow-down-b"></i></span>
 						</button>
 						<ul class="dropdown-menu">
 							<li><a href="<?php echo site_url('manage/profile') ?>">Profil</a></li>
 							<li><a href="<?php echo site_url('manage/auth/logout') ?>">Keluar</a></li>
 						</ul>
-					</div>
+					</li>
+					
 				</ul>
 			</div>
 		</div>
+		<!-- /container -->
 	</div>
 
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-xs-8 col-sm-3 col-md-2 sidebar sidebar-left sidebar-animate sidebar-md-show">
-				<div class="user-logged-in">
-					<div class="content">
-						<div class="user-name"> <span class="text-muted f9"><?php echo $this->session->userdata('m_full_name'); ?></span></div>
-						<div class="user-email"><?php echo $this->session->userdata('m_email'); ?></div>
-						<div class="user-actions">
-							<a class="m-r-5" href=""></a><a href="<?php echo site_url('manage/auth/logout') ?>">logout</a>
-						</div>
-					</div>
-				</div>
+	<div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+		<?php $this->load->view('manage/templates/list'); ?>
+	</div>
 
-				<?php $this->load->view('manage/templates/list'); ?>
+	<div class="col-lg-10 col-md-10 col-sm-9 col-xs-12">
+		<?php isset($page) ? $this->load->view($page) : null;  ?> 
 
+	</div>
 
-				<div class="margin-bottom-20"></div>
-			</div>
-
-			<div class="main col-md-10 col-md-offset-2">
-				<?php isset($page) ? $this->load->view($page) : null;  ?> 
-				<div class="margin-bottom-20"></div>
-			</div>
-
-			<div class="col-xs-5 col-sm-3 col-md-2 sidebar sidebar-right sidebar-animate">
+			<!-- <div class="col-xs-5 col-sm-3 col-md-2 sidebar sidebar-right sidebar-animate">
 				<ul class="nav navbar-stacked">
 					<li class="active"><a href="<?php echo site_url('manage/profile') ?>">Profil</a></li>
 					<li><a href="#about">Pengaturan</a></li>
 					<li><a href="<?php echo site_url('manage/auth/logout') ?>">Keluar</a></li>
 				</ul>
-			</div>
+			</div> -->
 
-		</div>
+	<!-- 	</div>
 	</div>
-
-	<?php if ($this->session->flashdata('success')): ?>
-		<script type="text/javascript">
-			$.notify("<?php echo $this->session->flashdata('success')?>", 
-			{
-				className: 'success',
-				globalPosition: 'top center',
-			}
-			);
-		</script>
-	<?php endif ?>
+-->
+<?php if ($this->session->flashdata('success')): ?>
+	<script type="text/javascript">
+		$.notify("<?php echo $this->session->flashdata('success')?>", 
+		{
+			className: 'success',
+			globalPosition: 'top center',
+		}
+		);
+	</script>
+<?php endif ?>
 </body>
 
 </html>

@@ -1,4 +1,5 @@
-<h3 class="page-header">Log Aktivitas</h3>
+<a href="#"><h3><span class="fa fa-dashboard"></span> Log Aktivitas</h3></a>
+<hr>
 <table class="table table-responsive">
 	<thead>
 		<th>Tanggal</th>

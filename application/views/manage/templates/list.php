@@ -1,58 +1,31 @@
-<ul class="nav navbar-stacked">
-	<li class="active">
-		<a href="<?php echo site_url('manage') ?>">
-			<i class="mdi mdi-blur" style="font-size:17px;"></i> Dashboard
-		</a>
-	</li>
 
-	<li menu-toggle="" class="">
-		<a href="#" data-toggle="collapse" data-target="#news" aria-expanded="true" aria-controls="news" class="list-item"><i class="mdi mdi-microphone" style="font-size:17px;"></i> 
-			Berita
-			<div id="news" class="collapse <?php echo nav_collapse('news') ?>">
-				<a href="<?php echo site_url('manage/news') ?>">
-					<div class="list-group">
-						<span class="mdi mdi-receipt"></span> Daftar Berita
-					</div>
-				</a>
-				<a href="<?php echo site_url('manage/news/add') ?>">
-					<div class="list-group">
-						<span class="mdi mdi-plus-box"></span> Tambah Berita
-					</div>
-				</a>
-			</div>
-		</a>
-	</li>
-
-	<!-- <li menu-toggle="" class="">
-		<a href="#" data-toggle="collapse" data-target="#petugas" aria-expanded="true" aria-controls="petugas" class="list-item"><i class="mdi mdi-account-box" style="font-size:17px;"></i> 
-			Petugas
-			<div id="petugas" class="collapse <?php echo nav_collapse('user') ?>">
-				<a href="<?php echo site_url('manage/user') ?>">
-					<div class="list-group">
-						<span class="mdi mdi-receipt"></span> Daftar Petugas
-					</div>
-				</a>
-				<a href="<?php echo site_url('manage/user/add') ?>">
-					<div class="list-group">
-						<span class="mdi mdi-plus-box"></span> Tambah Petugas
-					</div>
-				</a>
-			</div>
-		</a>
-	</li> -->
-
-	<li menu-toggle="" class="">
-		<a href="#" data-toggle="collapse" data-target="#log" aria-expanded="true" aria-controls="log" class="list-item"><i class="mdi mdi-tumblr-reblog" style="font-size:17px;"></i> 
-			Log Aktivitas
-			<div id="log" class="collapse <?php echo nav_collapse('log') ?>">
-				<a href="<?php echo site_url('manage/log') ?>">
-					<div class="list-group">
-						<span class="mdi mdi-receipt"></span> Log Aktivitas
-					</div>
-				</a>
-			</div>
-		</a>
-	</li>
-
-
+<ul class="nav nav-pills nav-stacked hidden-xs" style="border-right:1px solid black">
+	<li class="nav-header"></li>
+	<li><a href="<?php echo site_url('manage') ?>"><i class="ion ion-ionic"></i> Dashboard</a></li>
+	<li><a href="<?php echo site_url('manage/news') ?>"><i class="ion ion-person"></i> Daftar Berita</a></li>
+	<li><a href="<?php echo site_url('manage/news/add') ?>"><i class="ion ion-plus-circled"></i> Tambah Berita</a></li>
+	<li><a href="<?php echo site_url('manage/log') ?>"><i class="ion ion-loop"></i> Log Aktivitas</a></li>
 </ul>
+
+<div class="container">
+	<div class="row hidden-lg hidden-md hidden-sm">
+		<div class="dropdown">
+			<a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-block btn-primary" data-target="#" href="/page.html">
+				Dasboard <span class="caret"></span>
+			</a>
+			<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+				<li class="dropdown-submenu">
+					<a tabindex="-1" href="#">Berita</a>
+					<ul class="dropdown-menu">
+						<li><a tabindex="-1" href="<?php echo site_url('manage/news') ?>">Daftar Berita</a></li>
+						<li><a href="<?php echo site_url('manage/news/add') ?>">Tambah Berita</a></li>
+					</ul>
+				</li>
+				<li class="divider"></li>
+				<li><a href="<?php echo site_url('manage/log') ?>">Log Aktivitas</a></li>
+			</ul>
+		</div>
+	</div>
+</div><!-- /span-3 -->
+
+

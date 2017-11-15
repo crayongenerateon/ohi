@@ -8,7 +8,7 @@
   <meta name="author" content="">
 
   <title> OHCI | one healt care indonesia</title>
-  <link rel="icon" href="<?php echo site_url('');?>media/template/media/images/ico/blood.png" type="icon">
+  <link rel="shortcut icon" href="<?php echo base_url('media/img/logo.png') ?>">
   <!-- Bootstrap Core CSS -->
   <link href="<?php echo base_url('');?>media/template/media/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="<?php echo base_url('');?>media/template/media/css/ionicons.min.css" rel="stylesheet" type="text/css">
@@ -30,7 +30,33 @@
   <script type="text/javascript" src="<?php echo base_url('');?>media/template/media/js/custom.js"></script>
 
 
+  <script>
+    $(document).ready(function(){
+      $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
 
+        var target = this.hash;
+        var $target = $(target);
+
+        $('html, body').stop().animate({
+          'scrollTop': $target.offset().top
+        }, 900, 'swing', function () {
+          window.location.hash = target;
+        });
+      });
+
+    });
+
+    $(window).scroll(function() {    
+      var scroll = $(window).scrollTop();
+
+      if (scroll >= 200) {
+        $(".fixed-header").slideDown();
+      } else {
+        $(".fixed-header").slideUp();
+      }
+    })
+  </script>
 </head>
 
 <body>
@@ -50,12 +76,11 @@
         <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-2">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="<?php echo site_url('');?>">Home</a></li>
-            <li><a href="<?php echo site_url('news/index');?>">News</a></li>
-            <li><a href="<?php echo site_url('about');?>">About Us |</a></li>
-            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook" style=" color: #4267b2;"></i></a></li>
+            <li><a href="#section1">News</a></li>
+            <li><a href="#section2">About Us</a></li>
+  <!--           <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook" style=" color: #4267b2;"></i></a></li>
             <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter" style=" color: #5fb0e8;"></i></a></li>
-            <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus" style=" color: #db4437;"></i></a></li>       
-            <li><a href="" title="Contact Us"><small>081288007787</small></a></li>  
+            <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus" style=" color: #db4437;"></i></a></li>   -->     
           </ul>
         </div>
         <!--/.navbar-collapse-->
@@ -82,7 +107,6 @@
               <h1>one healt care indonesia</h1>        
               <h3>kesehatan umum, kedokteran gigi Klinik</h3>
             </hgroup>
-            <button class="snip1434">About Us<i class="ion-stats-bars"></i></button>
           </div>
         </div>
         <div class="item slides">
@@ -92,7 +116,6 @@
               <h1>one healt care indonesia</h1>        
               <h3>It Pays to Live Healthy</h3>
             </hgroup>       
-            <button class="snip1434">About Us<i class="ion-stats-bars"></i></button>
           </div>
         </div>
         <div class="item slides">
@@ -102,14 +125,13 @@
               <h1>one healt care indonesia</h1>        
               <h3>Get start your next awesome project</h3>
             </hgroup>
-            <button class="snip1434">About Us<i class="ion-stats-bars"></i></button>
           </div>
         </div>
       </div> 
     </div>
 
 
-    <div class="container">
+    <div class="container" id="section1">
       <div class="section_wrapper clearfix">
         <div class="container">
           <h1 style="margin-top: 40px;">
@@ -179,7 +201,7 @@
 
 
 
-    <div class="bgimg-3" style="margin-top: -80px">
+    <div class="bgimg-3" style="margin-top: -80px" id="section2">
       <div class="caption">
         <div class="col-lg-12">
           <span class="border" style="background-color:transparent;font-size:30px;color: #fff !important;">
@@ -201,10 +223,10 @@
         <a href="#" class="list-group-item active">
           <h2>Latar Belakang</h2>
         </a>
-        <a href="#" class="list-group-item text-primary">Semakin meningkatnya kasus gangguan sistem muskuloskeletal (otot, tulang dan persendian) pada masyarakat indonesia.</a>
-        <a href="#" class="list-group-item">Rendahnya tingkat kebugaran masyarakat indonesia.</a>
-        <a href="#" class="list-group-item">Tingginya angka kesakitan yang diikuti dengan rendahnya tingkat kebugaran dapat menyebabkan menurunnya produktifitas kerja masyarakat Indonesia.</a>
-        <a href="#" class="list-group-item">Sulitnya masyarakat  Indonesia mendapat layanan kesehatan dan kebugaran  yang efektif dan efisien.</a>
+        <div class="list-group-item text-primary">Semakin meningkatnya kasus gangguan sistem muskuloskeletal (otot, tulang dan persendian) pada masyarakat indonesia.</div>
+        <div class="list-group-item">Rendahnya tingkat kebugaran masyarakat indonesia.</div>
+        <div class="list-group-item">Tingginya angka kesakitan yang diikuti dengan rendahnya tingkat kebugaran dapat menyebabkan menurunnya produktifitas kerja masyarakat Indonesia.</div>
+        <div class="list-group-item">Sulitnya masyarakat  Indonesia mendapat layanan kesehatan dan kebugaran  yang efektif dan efisien.</div>
       </div>
     </div>
 
@@ -213,10 +235,10 @@
       <a href="#" class="list-group-item active">
         <h2>Tujuan</h2>
       </a>
-      <a href="#" class="list-group-item text-primary">Menjadi wadah bagi tenaga kesehatan untuk mengabdikan ilmunya kepada masyarakat di Indonesia </a>
-      <a href="#" class="list-group-item"> Memberikan solusi kepada masyarakat di Indonesia yang mengalami gangguan kesehatan dalam mendapatkan layanan kesehatan dan kebugaran yang efektif dan efisien.</a>
-      <a href="#" class="list-group-item">Memberikan dukungan kepada program pembinaan atlet tingkat daerah hingga Nasional dalam mencapai prestasi</a>
-      <a href="#" class="list-group-item">Membantu pelakasanaan program pemerintah dalam meningkatkan derajat kesehatan dan kebugaran pada masyarakat di Indonesia</a>
+      <div class="list-group-item text-primary">Menjadi wadah bagi tenaga kesehatan untuk mengabdikan ilmunya kepada masyarakat di Indonesia </div>
+      <div class="list-group-item"> Memberikan solusi kepada masyarakat di Indonesia yang mengalami gangguan kesehatan dalam mendapatkan layanan kesehatan dan kebugaran yang efektif dan efisien.</div>
+      <div class="list-group-item">Memberikan dukungan kepada program pembinaan atlet tingkat daerah hingga Nasional dalam mencapai prestasi</div>
+      <div class="list-group-item">Membantu pelakasanaan program pemerintah dalam meningkatkan derajat kesehatan dan kebugaran pada masyarakat di Indonesia</div>
     </div>
   </div>
 </div>

@@ -63,13 +63,13 @@
       </nav>
 
 
-      <div class="container" style="margin-top: 100px;">
+      <div class="container" style="margin-top: 150px;">
         <div class="row">
-          <div class="col-md-10 col-md-offset-1">
-            <section class="blog-post">
-             <div class="index-content">
-              <div class="container">
-                <div class="row">
+          <div class="index-content">
+          
+           
+       
+               
                  <?php $i = 1; ?>
                  <?php foreach ($news as $key): ?>
                    <?php $item_class = ($i == 1) ? 'item active' : 'item'; ?>
@@ -114,12 +114,11 @@
 
                     <?php $i++; ?>
                   <?php endforeach ?>
-                </div>
+                
 
-              </div>
-            </div>
+           
+           
 
-          </section><!-- /.blog-post -->
         </div>
       </div>
 

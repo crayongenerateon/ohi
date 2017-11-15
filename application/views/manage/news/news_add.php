@@ -23,9 +23,10 @@
     ?>
 
     <?php echo form_open_multipart(current_url()); ?>
-    <div class="page-header">
-        <h3 class="page-title"><?php echo $operation; ?> Berita</h3>
-    </div>
+    <a href="#">
+        <h3><span class="ion ion-ionic"></span> <?php echo $operation; ?> Berita</h3>
+    </a>
+    <hr>
 
     <div class="row">
         <div class="col-sm-9 col-md-9">
@@ -50,15 +51,15 @@
                     &nbsp;&nbsp;&nbsp;&nbsp;<button name="action" type="submit" value="save" class="btn btn-success"><i class="ion-checkmark"></i> Simpan</button>
                 </div>
                 <div class="row" style="margin-top: 3px">
-                 &nbsp;&nbsp;&nbsp;&nbsp; <a href="<?php echo site_url('manage/news'); ?>" class="btn btn-info"><i class="ion-arrow-left-a"></i> Batal</a>
-             </div>
-         </div>
-     </div>
- </div>
+                   &nbsp;&nbsp;&nbsp;&nbsp; <a href="<?php echo site_url('manage/news'); ?>" class="btn btn-info"><i class="ion-arrow-left-a"></i> Batal</a>
+               </div>
+           </div>
+       </div>
+   </div>
 
- <?php echo form_close(); ?>
+   <?php echo form_close(); ?>
 
- <?php if (isset($news)): ?>
+   <?php if (isset($news)): ?>
     <!-- Delete Confirmation -->
     <div class="modal fade" id="confirm-del">
         <div class="modal-dialog">
