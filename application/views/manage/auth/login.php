@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>PMOI | Login</title>
+	<title>OHI | Login</title>
   <link rel="shortcut icon" href="<?php echo base_url('media/template/media/images/ico/logo2.png') ?>">
   <link href="<?php echo base_url('media/css/bootstrap.min.css');?>" rel="stylesheet">
   <link href="<?php echo base_url('media/css/login.css');?>" rel="stylesheet">
@@ -17,7 +17,7 @@
     <div class="card bordered z-depth-2" style="margin:0% auto; max-width:400px;">
       <div class="card-header">
         <div class="brand-logo">
-          PENGELOLAAN WEBSITE OHCI
+          PENGELOLAAN WEBSITE OHI
         </div>
       </div>
       <?php echo form_open(current_url(), array('role'=>'form', 'class'=>'form-signin')); ?>
@@ -35,13 +35,13 @@
           <label for="inputPassword" class="control-label">Password</label>
           <input type="password" name="password" class="form-control" placeholder="Password" required>
         </div>
-        <div class="form-group">
+       <!--  <div class="form-group">
           <div class="checkbox">
             <label>
               <input type="checkbox" name="remember"> Remember me
             </label>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="card-action clearfix">
         <div class="pull-right">
