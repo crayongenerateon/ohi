@@ -131,23 +131,23 @@
 
         </div>
       </div>
-
+      
       <footer>
         <div class="container">
           <div class="row text-center">   
-            <div class="col-lg-6 col-lg-offset-3">
+            <div class="col-lg-8 col-lg-offset-2">
               <ul class="menu">
 
+                <li>
+                 <a href="#"><img src="<?php echo base_url();?>/media/template/media/images/ico/phone.png" class="img-resposive" alt="WhatsApp"> Phone : 0812-8667-6543</a>
+               </li>
+
                <li>
-                <a href="#"><i class="ion ion-android-call"></i> 0816-1140-7095</a>
+                <a href="#"><img src="<?php echo base_url();?>/media/template/media/images/ico/wa.png" class="img-resposive" alt="WhatsApp"> WA : 0816-1140-7095</a>
               </li>
 
               <li>
-               <a href="#"><i class="ion ion-android-call"></i> 0812-8667-6543</a>
-             </li>
-
-             <li>
-               <a href="#"><i class="ion ion-android-call"></i> 081288007787</a>
+               <a href="#"><img src="<?php echo base_url();?>/media/template/media/images/ico/phone.png" class="img-resposive" alt="WhatsApp"> Phone : 081288007787</a>
              </li>
 
            </ul>
