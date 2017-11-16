@@ -4,7 +4,7 @@ class User extends CI_Controller {
 
 	function __construct(){
 		parent::__construct();
-		if ($this->session->userdata('m_login') == TRUE) {
+		if ($this->session->userdata('m_login') == FALSE) {
 			redirect('manage/auth/login');
 		}
 		$this->load->model('User_model');

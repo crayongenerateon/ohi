@@ -39,7 +39,7 @@
 							<img class="img-circle" src="<?php echo base_url('media/img/people.png') ?>" width="21px" alt=""> <span><i class="ion ion-arrow-down-b"></i></span>
 						</button>
 						<ul class="dropdown-menu">
-							<li><a href="<?php echo site_url('manage/profile') ?>">Profil</a></li>
+							<li><a href="<?php echo site_url('manage/user/profil') ?>">Profil</a></li>
 							<li><a href="<?php echo site_url('manage/auth/logout') ?>">Keluar</a></li>
 						</ul>
 					</li>

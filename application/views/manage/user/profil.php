@@ -19,14 +19,6 @@
 				<td><?php echo $user['user_email'] ?></td>
 			</tr>
 			<tr>
-				<td>Akses ke Pengelolaan Web</td>
-				<td><?php echo ($user['user_is_web'] == 1) ? 'Bisa' : 'Tidak' ?></td>
-			</tr>
-			<tr>
-				<td>Deskripsi</td>
-				<td><?php echo $user['user_description'] ?></td>
-			</tr>
-			<tr>
 				<td>Tanggal Daftar</td>
 				<td><?php echo pretty_date($user['date_created'], 'l, d F Y', false) ?></td>
 			</tr>
