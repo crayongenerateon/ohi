@@ -105,7 +105,7 @@
           <div class="hero">
             <hgroup>
               <h1>one healtcare indonesia</h1>        
-              <h3>kesehatan umum, kedokteran gigi Klinik</h3>
+              <h3>One Step Home Care Therapy</h3>
             </hgroup>
           </div>
         </div>
@@ -114,7 +114,7 @@
           <div class="hero">        
             <hgroup>
               <h1>one healtcare indonesia</h1>        
-              <h3>It Pays to Live Healthy</h3>
+              <h3>One Step Home Care Therapy</h3>
             </hgroup>       
           </div>
         </div>
@@ -123,7 +123,7 @@
           <div class="hero">        
             <hgroup>
               <h1>one healtcare indonesia</h1>        
-               <h3>It Pays to Live Healthy</h3>
+               <h3>One Step Home Care Therapy</h3>
             </hgroup>
           </div>
         </div>
