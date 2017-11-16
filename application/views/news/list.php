@@ -116,11 +116,7 @@
         </div>
       </div>
       <div >
-        <ul class="pagination">
-          <li class="disabled"><a href="#">«</a></li>
-          <li class="active"><a href="#"> <?php echo $this->pagination->create_links(); ?></a></li>
-
-        </ul>
+        <?php echo $this->pagination->create_links(); ?>
       </div>
     </div>
 
