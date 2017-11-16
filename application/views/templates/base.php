@@ -210,7 +210,7 @@
               <div class="animated fadeInLeft">Visi &</div> <div class="animated fadeInRight">Misi</div>
             </h1>
           </center>
-          Menyediakan layanan kesehatan dan kebugaran secara profesional dalama rangka meningkatkan derajat kesehatan dan produktifitas kerja pada masyarakat indonesia.
+          Menyediakan layanan kesehatan dan kebugaran secara profesional dalam rangka meningkatkan derajat kesehatan dan produktifitas kerja pada masyarakat indonesia.
         </span>
       </div>
     </div>
