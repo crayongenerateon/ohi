@@ -138,7 +138,7 @@
             <div class="animated fadeInLeft">Post</div><div class="animated fadeInRight">News</div>
           </h1>
           <p class="animated fadeInUp delay-1">Lates Information</p>
-          <a href="<?php echo site_url('news/index');?>" class="animated fadeInUp delay-1 pull-right" style="margin-top: -30px;">All News</a>`
+          <a href="<?php echo site_url('news/index');?>" class="animated fadeInUp delay-1 pull-right" style="margin-top: -30px;">All News</a>
         </div>
         <!-- <a class="btn btn-primary pull-right" href="#" style="margin-top: -50px;">View All News <i class="ion ion-eye"></i></a> -->
 
