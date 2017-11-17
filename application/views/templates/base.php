@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title> OHI | one healtcare indonesia</title>
+  <title> OHI | One Healtcare Indonesia</title>
   <link rel="shortcut icon" href="<?php echo base_url('media/template/media/images/ico/logo2.png') ?>">
   <!-- Bootstrap Core CSS -->
   <link href="<?php echo base_url('');?>media/template/media/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -114,7 +114,7 @@
           <div class="hero">        
             <hgroup>
               <h1>one healtcare indonesia</h1>        
-              <h3>One Step Home Care Therapy</h3>
+              <h3>Pemeriksaan dokter spesialis - fisioterapi - terapi latihan - masas terapi - dan kebugaran</h3>
             </hgroup>       
           </div>
         </div>
@@ -123,7 +123,7 @@
           <div class="hero">        
             <hgroup>
               <h1>one healtcare indonesia</h1>        
-              <h3>One Step Home Care Therapy</h3>
+              <h3>Health improves productivity</h3>
             </hgroup>
           </div>
         </div>
@@ -210,7 +210,7 @@
               <div class="animated fadeInLeft">Visi &</div> <div class="animated fadeInRight">Misi</div>
             </h1>
           </center>
-          Menyediakan layanan kesehatan dan kebugaran secara profesional dalam rangka meningkatkan derajat kesehatan dan produktifitas kerja pada masyarakat indonesia.
+          Menyediakan layanan kesehatan dan kebugaran secara profesional dalam rangka meningkatkan derajat kesehatan dan produktivitas kerja pada masyarakat Indonesia.
         </span>
       </div>
     </div>
@@ -223,9 +223,9 @@
         <a href="#" class="list-group-item active">
           <h2>Latar Belakang</h2>
         </a>
-        <div class="list-group-item text-primary">Semakin meningkatnya kasus gangguan sistem muskuloskeletal (otot, tulang dan persendian) pada masyarakat indonesia.</div>
-        <div class="list-group-item">Rendahnya tingkat kebugaran masyarakat indonesia.</div>
-        <div class="list-group-item">Tingginya angka kesakitan yang diikuti dengan rendahnya tingkat kebugaran dapat menyebabkan menurunnya produktifitas kerja masyarakat Indonesia.</div>
+        <div class="list-group-item text-primary">Semakin meningkatnya kasus gangguan sistem muskuloskeletal (otot, tulang dan persendian) pada masyarakat Indonesia.</div>
+        <div class="list-group-item">Rendahnya tingkat kebugaran masyarakat Indonesia.</div>
+        <div class="list-group-item">Tingginya angka kesakitan yang diikuti dengan rendahnya tingkat kebugaran dapat menyebabkan menurunnya produktivitas kerja masyarakat Indonesia.</div>
         <div class="list-group-item">Sulitnya masyarakat  Indonesia mendapat layanan kesehatan dan kebugaran  yang efektif dan efisien.</div>
       </div>
     </div>
@@ -250,15 +250,15 @@
         <ul class="menu">
 
           <li>
-           <a href="#"><img src="<?php echo base_url();?>/media/template/media/images/ico/phone.png" class="img-resposive" alt="WhatsApp"> Phone : 0812-8667-6543</a>
+           <a><img src="<?php echo base_url();?>/media/template/media/images/ico/phone.png" class="img-resposive" alt="WhatsApp"> Phone : 0812-8667-6543</a>
          </li>
 
          <li>
-          <a href="#"><img src="<?php echo base_url();?>/media/template/media/images/ico/wa.png" class="img-resposive" alt="WhatsApp"> WA : 0816-1140-7095</a>
+          <a><img src="<?php echo base_url();?>/media/template/media/images/ico/wa.png" class="img-resposive" alt="WhatsApp"> WA : 0816-1140-7095</a>
         </li>
 
         <li>
-         <a href="#"><img src="<?php echo base_url();?>/media/template/media/images/ico/phone.png" class="img-resposive" alt="WhatsApp"> Phone : 081288007787</a>
+         <a><img src="<?php echo base_url();?>/media/template/media/images/ico/phone.png" class="img-resposive" alt="WhatsApp"> Phone : 0812-8800-7787</a>
        </li>
 
      </ul>
