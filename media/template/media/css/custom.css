@@ -291,7 +291,7 @@ of those sections to manage the look and feel of the site. */
 .fade-carousel .carousel-indicators > li {
   z-index: 5;
   margin: 0 2px;
-  background-color: rgba(0, 0, 0, 0.701961);
+  background-color: #fff;
   border-color: rgba(0, 0, 0, 0.498039);
   opacity: 1;
 }
@@ -299,6 +299,7 @@ of those sections to manage the look and feel of the site. */
   width: 10px;
   height: 10px;
   opacity: 1;
+  background: #3367cd;
 }
 
 /********************************/
@@ -796,7 +797,7 @@ p {
 
 
 .index-content a:hover{
-  color:#464646;
+  color:#333;
   text-decoration:none;
 }
 .index-content{
@@ -808,7 +809,7 @@ p {
   margin-top:20px;
 }
 .index-content a{
-  color: #333;
+  color: #878685;
   text-transform: unset;
 }
 .index-content .card{
@@ -1236,16 +1237,17 @@ h1 div:first-child {
 }
 
 .card__title{
+  font-family: 'Arial';
   padding: 1em 1em 0em;
   color: #ddd;
-  font-size: 100%;
+  font-size: 1em;
   font-weight: 600;
   line-height: 1.2;
   text-align: left;
   margin-top: -20px;
   margin-bottom: 0em;
   text-transform: unset;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
 }
 
 .card__description {
@@ -1302,4 +1304,204 @@ h1 div:first-child {
 }
 .pagination > li:last-child > a,  .pagination > li:last-child > span {
   border-radius:20px 0 0 0 !important;
+}
+
+.section1 {
+  background: -webkit-linear-gradient(350deg, #24A4EA, #379DEB 25%, #B76BF0);
+    background: linear-gradient(100deg, #24A4EA, #379DEB 25%, #B76BF0);
+}
+
+.pad {
+  display: block;
+  width: 100%;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  padding: 10px 20px;
+}
+
+#articles {
+  display: block;
+  width: 60%;
+  min-width: 468px;
+  max-width: 740px;
+  margin: 0 auto;
+  -webkit-perspective: 0px;
+  -moz-perspective: 0px;
+  -ms-perspective: 0px;
+  -o-perspective: 0px;
+  perspective: 0px;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.module {
+  float: left;
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin-bottom: 15px;
+  display: block;
+  background: #fff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.inside-module {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+article .bar-full {
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 4px;
+  background: #f7f7f6;
+}
+
+article .bar {
+  display: block;
+  width: 50px;
+  height: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #769ff4;
+}
+
+article .bar-box {
+  display: none;
+  position: absolute;
+  top: 4px;
+  width: 120px;
+  height: 30px;
+}
+
+article .bar-box .bar-flip {
+  display: block;
+  position: absolute;
+  top: 0px;
+  width: 120px;
+  height: 30px;
+  padding: 0 20px;
+  background: #6589d4;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 600;
+  color: #fff;
+  line-height: 30px;
+  -webkit-transform-origin: 50% 0%;
+  -moz-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  -o-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-transform: perspective(250px) rotateX(-90deg);
+  -moz-transform: perspective(250px) rotateX(-90deg);
+  -ms-transform: perspective(250px) rotateX(-90deg);
+  -o-transform: perspective(250px) rotateX(-90deg);
+  transform: perspective(250px) rotateX(-90deg);
+  -webkit-transition: 0.2s linear 0.2s;
+  -moz-transition: 0.2s linear 0.2s;
+  -ms-transition: 0.2s linear 0.2s;
+  -o-transition: 0.2s linear 0.2s;
+  transition: 0.2s linear 0.2s;
+}
+
+article:hover .bar-flip {
+  -webkit-transform: perspective(350px) rotateX(0deg);
+  -moz-transform: perspective(350px) rotateX(0deg);
+  -ms-transform: perspective(350px) rotateX(0deg);
+  -o-transform: perspective(350px) rotateX(0deg);
+  transform: perspective(350px) rotateX(0deg);
+  -webkit-transition: 0.2s linear 0s;
+  -moz-transition: 0.2s linear 0s;
+  -ms-transition: 0.2s linear 0s;
+  -o-transition: 0.2s linear 0s;
+  transition: 0.2s linear 0s;
+}
+
+.come-in .bar,
+.already-visible .bar {
+  width: 120px;
+  -webkit-transition: width 0.35s ease-in;
+  -moz-transition: width 0.35s ease-in;
+  -ms-transition: width 0.35s ease-in;
+  -o-transition: width 0.35s ease-in;
+  transition: width 0.35s ease-in;
+}
+
+.come-in .bar-box,
+.already-visible .bar-box {
+  display: block;
+}
+
+.module.come-in {
+  -webkit-transform: translateY(100px);
+  -moz-transform: translateY(100px);
+  -ms-transform: translateY(100px);
+  -o-transform: translateY(100px);
+  transform: translateY(100px);
+  -webkit-animation: google 0.4s ease forwards;
+  -moz-animation: google 0.4s ease forwards;
+  -o-animation: google 0.4s ease forwards;
+  animation: google 0.4s ease forwards;
+}
+
+.module,
+.module.already-visible {
+  -webkit-transform: translateY(0px) perspective(200px) rotatex(0deg);
+  transform: translateY(0px) perspective(200px) rotatex(0deg);
+  -webkit-animation: none;
+  -moz-animation: none;
+  -o-animation: none;
+  animation: none;
+}
+
+@-webkit-keyframes google {
+  0% {
+    -webkit-transform: translateY(100px) perspective(200px) rotatex(30deg);
+  }
+  100% {
+    -webkit-transform: translateY(0px) perspective(200px) rotatex(0deg);
+  }
+}
+@-moz-keyframes google {
+  0% {
+    -moz-transform: translateY(100px) perspective(200px) rotatex(30deg);
+  }
+  100% {
+    -moz-transform: translateY(0px) perspective(200px) rotatex(0deg);
+  }
+}
+@-o-keyframes google {
+  0% {
+    -o-transform: translateY(100px) perspective(200px) rotatex(30deg);
+  }
+  100% {
+    -o-transform: translateY(0px) perspective(200px) rotatex(0deg);
+  }
+}
+@keyframes google {
+  0% {
+    -webkit-transform: translateY(100px) perspective(200px) rotatex(30deg);
+    transform: translateY(100px) perspective(200px) rotatex(30deg);
+  }
+  100% {
+    -webkit-transform: translateY(0px) perspective(200px) rotatex(0deg);
+    transform: translateY(0px) perspective(200px) rotatex(0deg);
+  }
 }
