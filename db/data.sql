@@ -33,7 +33,7 @@ INSERT INTO `role` (`role_id`, `role_name`) VALUES
 --
 
 INSERT INTO `user` (`user_id`, `role_id`, `user_name`, `user_password`, `user_full_name`, `user_email`, `date_created`, `last_update`) VALUES
-(1, 1, 'admin', SHA1('password'), 'Administrator', 'admin@mail.com', '2016-10-02 08:06:45', NULL);
+(1, 1, 'junaidihamid', SHA1('jatinegaraindah'), 'Administrator', 'admin@mail.com', '2016-10-02 08:06:45', NULL);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
