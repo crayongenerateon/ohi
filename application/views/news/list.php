@@ -129,24 +129,22 @@
               <li>
                <a href="#"><img src="<?php echo base_url();?>/media/template/media/images/ico/phone.png" class="img-resposive" alt="WhatsApp"> Phone : 0812-8667-6543</a>
              </li>
-
+             <li>
+              <a href="#"><img src="<?php echo base_url();?>/media/template/media/images/ico/phone.png" class="img-resposive" alt="WhatsApp"> Phone : 0812-8800-7787</a>
+             </li>
              <li>
               <a href="#"><img src="<?php echo base_url();?>/media/template/media/images/ico/wa.png" class="img-resposive" alt="WhatsApp"> WA : 0816-1140-7095</a>
             </li>
 
-            <li>
-             <a href="#"><img src="<?php echo base_url();?>/media/template/media/images/ico/phone.png" class="img-resposive" alt="WhatsApp"> Phone : 081288007787</a>
-           </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-         </ul>
-       </div>
-     </div>
-   </div>
-
- </footer>
+  </footer>
 
 
- <div class="copyright">
+  <div class="copyright">
    <div class="container">
 
      <div class="row text-center">
