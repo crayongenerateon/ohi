@@ -123,7 +123,7 @@
           <div class="hero">        
             <hgroup>
               <h1>one healtcare indonesia</h1>        
-              <h3>One Step Home Care Therapy</h3>
+              <h3>Health Improves Productivity</h3>
             </hgroup>
           </div>
         </div>
@@ -135,7 +135,7 @@
       <div class="container">
         <div class="row-lg-12" align="leo">
           <div class="col-md-8" style="color: #ffffff; font-size:22px;">
-           <h2>" One Healthcare Indonesia adalah suatu layanan perawatan kesehatan di rumah anda. Perarawatan kesehatan One Healthcare Indonesia terutama untuk masalah otot, tulang dan persendian. Tenaga kesehatan One Healthcare Indonesia terdiri dari <strong style="color: #ffc200">sarjana strata 1,2 dan 3</strong> di bidang profesinya masing-masing "</h2>
+           <h2>" One Healthcare Indonesia adalah suatu layanan perawatan kesehatan di rumah anda. Perawatan kesehatan One Healthcare Indonesia terutama untuk masalah otot, tulang dan persendian. Tenaga kesehatan One Healthcare Indonesia terdiri dari <strong style="color: #ffc200">sarjana strata 1,2 dan 3</strong> di bidang profesinya masing-masing "</h2>
          </div>
          <div class="col-md-4" style="color: #ffffff; font-size:12px; margin-top: -30px">
           <h2><i class="ion ion-heart" style="color:#FF0000;"></i> Layanan Kesehatan One Healthcare Indonesia</h2>
