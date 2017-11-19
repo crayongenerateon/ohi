@@ -114,7 +114,7 @@
           <div class="hero">        
             <hgroup>
               <h1>one healtcare indonesia</h1>        
-              <h3>Pemeriksaan dokter spesialis - fisioterapi - terapi latihan - masas terapi - dan kebugaran</h3>
+              <h3>Pemeriksaan dokter spesialis - fisioterapi - terapi latihan - masas terapi - masas kebugaran</h3>
             </hgroup>       
           </div>
         </div>
