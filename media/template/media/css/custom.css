@@ -369,13 +369,13 @@ of those sections to manage the look and feel of the site. */
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-image: url(../images/support/4.jpg); 
+  background-image: url(../images/support/slide1.jpg); 
 }
 .fade-carousel .slides .slide-2 {
-  background-image: url(../images/support/5.jpg);
+  background-image: url(../images/support/slide2.jpg);
 }
 .fade-carousel .slides .slide-3 {
-  background-image: url(../images/support/6.jpg);
+  background-image: url(../images/support/slide3.jpg);
 }
 
 /********************************/
