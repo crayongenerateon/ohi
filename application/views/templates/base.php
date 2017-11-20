@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title> OHI | one healtcare indonesia</title>
+  <title> OHI | One Healhtcare Indonesia</title>
   <link rel="shortcut icon" href="<?php echo base_url('media/template/media/images/ico/logo2.png') ?>">
   <!-- Bootstrap Core CSS -->
   <link href="<?php echo base_url('');?>media/template/media/css/bootstrap.min.css" rel="stylesheet" type="text/css">
