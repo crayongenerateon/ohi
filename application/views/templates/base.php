@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title> OHI | One Healhtcare Indonesia</title>
+  <title> OHI | One Healthcare Indonesia</title>
   <link rel="shortcut icon" href="<?php echo base_url('media/template/media/images/ico/logo2.png') ?>">
   <!-- Bootstrap Core CSS -->
   <link href="<?php echo base_url('');?>media/template/media/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -104,7 +104,7 @@
           <div class="slide-1"></div>
           <div class="hero">
             <hgroup>
-              <h1>one healtcare indonesia</h1>        
+              <h1>one healthcare indonesia</h1>        
               <h3>One Step Home Care Therapy</h3>
             </hgroup>
           </div>
@@ -113,7 +113,7 @@
           <div class="slide-2"></div>
           <div class="hero">        
             <hgroup>
-              <h1>one healtcare indonesia</h1>        
+              <h1>one healthcare indonesia</h1>        
               <h3>Pemeriksaan dokter spesialis - fisioterapi - terapi latihan - masas terapi - masas kebugaran</h3>
             </hgroup>       
           </div>
@@ -122,7 +122,7 @@
           <div class="slide-3"></div>
           <div class="hero">        
             <hgroup>
-              <h1>one healtcare indonesia</h1>        
+              <h1>one healthcare indonesia</h1>        
               <h3>Health Improves Productivity</h3>
             </hgroup>
           </div>
