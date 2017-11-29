@@ -120,41 +120,54 @@
       </div>
     </div>
 
-    <footer>
-      <div class="container">
-        <div class="row text-center">   
-          <div class="col-lg-8 col-lg-offset-2">
-            <ul class="menu">
-
-              <li>
-               <a href="#"><img src="<?php echo base_url();?>/media/template/media/images/ico/phone.png" class="img-resposive" alt="WhatsApp"> Phone : 0812-8667-6543</a>
-             </li>
-             <li>
-              <a href="#"><img src="<?php echo base_url();?>/media/template/media/images/ico/phone.png" class="img-resposive" alt="WhatsApp"> Phone : 0812-8800-7787</a>
-             </li>
-             <li>
-              <a href="#"><img src="<?php echo base_url();?>/media/template/media/images/ico/wa.png" class="img-resposive" alt="WhatsApp"> WA : 0816-1140-7095</a>
-            </li>
-
-          </ul>
+    <footer id="footer-Section">
+      <div class="footer-top-layout">
+        <div class="container">
+          <div class="row">
+            <div class=" col-lg-8 col-lg-offset-2">
+              <div class="col-sm-4">
+                <div class="footer-col-item">
+                  <h4>Alamat</h4>
+                  <address>
+                    Perumahan Jatinegara indah - jl gunung Agung No 15 - <br/>Jakarta Timur
+                  </address>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="footer-col-item">
+                  <h4>Kontak Kami</h4>
+                  <div class="item-contact"> 
+                    <a href="tel:630-885-9200"><span class="link-id">Phone</span>:<span>0812-8667-654</span></a> 
+                    <a href="tel:630-839.2006"><span class="link-id">Phone</span>:<span>0812-8800-7787</span></a> 
+                    <a href="mailto:info@brandcatmedia.com"><span class="link-id">WA</span>:<span>0816-1140-7095</span></a> 
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="footer-col-item">
+                  <h4>Sosial Media</h4>
+                  <a href="https://www.instagram.com/onehealth1/" target="_blank"><i class="ion ion-social-instagram-outline"></i> Intagram : onehealth1</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
+    </footer>
+
+
+    <div class="copyright">
+     <div class="container">
+
+       <div class="row text-center">
+        <p>Copyright © 2017 All rights reserved</p>
+      </div>
+
     </div>
-
-  </footer>
-
-
-  <div class="copyright">
-   <div class="container">
-
-     <div class="row text-center">
-      <p>Copyright © 2017 All rights reserved</p>
-    </div>
-
   </div>
-</div>
 
-<!-- Footer 3 End -->
+  <!-- Footer 3 End -->
 
 
 
