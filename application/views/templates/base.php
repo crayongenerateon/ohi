@@ -265,7 +265,7 @@
             <div class="animated fadeInLeft">Visi &</div> <div class="animated fadeInRight">Misi</div>
           </h1>
         </center>
-        Menyediakan layanan kesehatan dan kebugaran secara profesional dalam rangka meningkatkan derajat kesehatan dan produktifitas kerja pada masyarakat Indonesia.
+        Menyediakan layanan kesehatan dan kebugaran secara profesional dalam rangka meningkatkan derajat kesehatan dan produktivitas kerja pada masyarakat Indonesia.
       </span>
     </div>
   </div>
@@ -280,7 +280,7 @@
       </a>
       <div class="list-group-item text-primary">Semakin meningkatnya kasus gangguan sistem muskuloskeletal (otot, tulang dan persendian) pada masyarakat indonesia.</div>
       <div class="list-group-item">Rendahnya tingkat kebugaran masyarakat Indonesia.</div>
-      <div class="list-group-item">Tingginya angka kesakitan yang diikuti dengan rendahnya tingkat kebugaran dapat menyebabkan menurunnya produktifitas kerja masyarakat Indonesia.</div>
+      <div class="list-group-item">Tingginya angka kesakitan yang diikuti dengan rendahnya tingkat kebugaran dapat menyebabkan menurunnya produktivitas kerja masyarakat Indonesia.</div>
       <div class="list-group-item">Sulitnya masyarakat  Indonesia mendapat layanan kesehatan dan kebugaran  yang efektif dan efisien.</div>
     </div>
   </div>
