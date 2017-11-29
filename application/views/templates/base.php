@@ -278,7 +278,7 @@
       <a href="#" class="list-group-item active">
         <h2>Latar Belakang</h2>
       </a>
-      <div class="list-group-item text-primary">Semakin meningkatnya kasus gangguan sistem muskuloskeletal (otot, tulang dan persendian) pada masyarakat indonesia.</div>
+      <div class="list-group-item text-primary">Semakin meningkatnya kasus gangguan sistem muskuloskeletal (otot, tulang dan persendian) pada masyarakat Indonesia.</div>
       <div class="list-group-item">Rendahnya tingkat kebugaran masyarakat Indonesia.</div>
       <div class="list-group-item">Tingginya angka kesakitan yang diikuti dengan rendahnya tingkat kebugaran dapat menyebabkan menurunnya produktivitas kerja masyarakat Indonesia.</div>
       <div class="list-group-item">Sulitnya masyarakat  Indonesia mendapat layanan kesehatan dan kebugaran  yang efektif dan efisien.</div>
