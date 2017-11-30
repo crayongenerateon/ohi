@@ -136,12 +136,12 @@
         <div class="footer-top-layout">
           <div class="container">
             <div class="row">
-              <div class=" col-lg-8 col-lg-offset-2">
+              <div class=" col-lg-9 col-lg-offset-2">
                 <div class="col-sm-4">
                   <div class="footer-col-item">
                     <h4>Alamat</h4>
                     <address>
-                      Perumahan Jatinegara indah Jl.Gunung Agung<br/> No 15 - Jakarta Timur
+                      Perumahan Jatinegara indah  <br/>Jl.Gunung Agung No 15 <br/>Jakarta Timur
                     </address>
                   </div>
                 </div>
