@@ -326,7 +326,7 @@
           <div class="col-sm-4">
             <div class="footer-col-item">
               <h4>Sosial Media</h4>
-              <a href="https://www.instagram.com/onehealth1/" target="_blank"><i class="ion ion-social-instagram-outline"></i> Intagram : onehealth1</a>
+              <a href="https://www.instagram.com/onehealth1/" target="_blank"><i class="ion ion-social-instagram-outline"></i> Instagram : onehealth1</a>
             </div>
           </div>
         </div>
