@@ -141,7 +141,7 @@
                   <div class="footer-col-item">
                     <h4>Alamat</h4>
                     <address>
-                      Perumahan Jatinegara indah - jl gunung Agung No 15 - <br/>Jakarta Timur
+                      Perumahan Jatinegara indah - Jl.Gunung Agung<br/> No 15 - Jakarta Timur
                     </address>
                   </div>
                 </div>
