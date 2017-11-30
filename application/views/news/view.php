@@ -149,9 +149,9 @@
                   <div class="footer-col-item">
                     <h4>Kontak Kami</h4>
                     <div class="item-contact"> 
-                      <a href="tel:630-885-9200"><span class="link-id">Phone</span>:<span>0812-8667-654</span></a> 
+                      <a href="tel:630-885-9200"><span class="link-id">Phone</span>:<span>0812-8667-6543</span></a> 
                       <a href="tel:630-839.2006"><span class="link-id">Phone</span>:<span>0812-8800-7787</span></a> 
-                      <a href="mailto:info@brandcatmedia.com"><span class="link-id">WA</span>:<span>0816-1140-7095</span></a> 
+                      <a href="mailto:info@brandcatmedia.com"><span class="link-id">WA</span>:<span>081-6140-7095</span></a> 
                     </div>
                   </div>
                 </div>
